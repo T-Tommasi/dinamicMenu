@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>dinamic menu and carousel!</title>
+	</head>
+	<body>
+		<div class="container grid">
+			<nav class="flexRow">
+				<img src="#" alt="a temporary logo" class="logo" />
+				<ul class="navigationLinks flexRow">
+					<li id="home">Home</li>
+					<li id="products">Our products</li>
+					<ul class="dropdown flexColumn hidden" id="productsDropdown">
+						<li>Main product</li>
+						<li>Consulence</li>
+						<li>Private security</li>
+					</ul>
+					<li id="contacts">Contacts</li>
+				</ul>
+			</nav>
+			<main class="container grid">
+				<div class="carouselflex" id="carouselDisplay">
+					<div class="arrow"><-</div>
+					<div id="carouselInternal"></div>
+					<div class="arrow">-></div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

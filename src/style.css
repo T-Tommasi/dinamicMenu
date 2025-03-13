@@ -98,3 +98,10 @@ main {
 	width: 100dvw;
 	height: 100dvh;
 }
+
+/*carousels styles*/
+
+.carouselFlex {
+	justify-content: space-between;
+	overflow: hidden;
+}
